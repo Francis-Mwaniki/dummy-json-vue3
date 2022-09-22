@@ -1,6 +1,7 @@
 <template>
   <div class="">
     <Form />
+    <TimeLine />
     <Resources />
   </div>
 </template>
@@ -8,10 +9,11 @@
 <script>
 import Form from "./components/Form.vue";
 import Resources from "./components/Resources.vue";
+import TimeLine from "./components/TimeLine.vue";
 
 export default {
   name: "App",
-  components: { Form, Resources },
+  components: { Form, Resources, TimeLine },
 };
 </script>
 
